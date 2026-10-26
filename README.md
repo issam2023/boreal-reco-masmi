@@ -38,15 +38,43 @@ to recommend items based on basket contents.
 
 ## Status
 
-Work in progress. Streamlit application under development.
+Streamlit application implemented and tested locally.
 
 ## Data
 
 The original transaction dataset is excluded from GitHub
-because of its size. Data access instructions will be added.
+because of its size. Place the original datasets in data/ to reproduce the mining notebook.
 
 ## Limitations
 
 Apriori can be memory-intensive on large datasets.
 Rare products may not appear in recommendations because
 they do not meet the minimum support threshold.
+
+## Installation
+
+Requires Python 3.12.
+
+Install dependencies:
+
+    python -m pip install -r requirements.txt
+
+Run Streamlit:
+
+    streamlit run app/streamlit_app.py
+
+## Features
+
+- Catalogue of 98 products
+- Basket with quantities and prices
+- Apriori recommendations with support, confidence and lift
+- Popular-product fallback
+- Recommendation audit trail
+
+## Notebook
+
+notebooks/masmi-notebook.ipynb
+
+## Benchmark
+
+reports/benchmark.md
