@@ -1,0 +1,15 @@
+{
+  "project": "Boreal Marche Apriori",
+  "min_support": 0.005,
+  "min_confidence": 0.2,
+  "min_lift_exclusive": 1.0,
+  "low_memory": true,
+  "mining_date_utc": "2026-10-26T15:32:10.683849+00:00",
+  "number_of_rules": 26991,
+  "recommendable_products": 58,
+  "catalogue_products": 98,
+  "coverage": 0.5918367346938775,
+  "number_of_baskets": 1000000,
+  "benchmark_measurement": "sampled process RSS",
+  "merge_map": {}
+}
