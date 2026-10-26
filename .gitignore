@@ -21,3 +21,16 @@ venv/
 *.log
 .DS_Store
 Final_Project_Boreal_Marche_Apriori.pdf
+
+# Local AI assistant configuration
+.agents/
+.claude/
+
+# Python and Streamlit caches
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+
+# Development backups and photo review
+app/*_backup.py
+app/assets/
