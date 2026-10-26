@@ -78,3 +78,16 @@ notebooks/masmi-notebook.ipynb
 ## Benchmark
 
 reports/benchmark.md
+
+## Application Screenshots
+
+### Main application
+Catalogue, product categories, shopping basket, and project statistics.
+
+![Boréal Marché main application](screenshots/main-appli.png)
+
+### Apriori recommendations and rule evidence
+Recommendations with support, confidence, lift, and the fired-rules audit trail.
+
+![Apriori recommendations and audit trail](screenshots/fired-rules.png)
+
